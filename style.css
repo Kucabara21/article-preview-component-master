@@ -118,18 +118,6 @@ p{
     font-size: small;
     color: hsl(212, 23%, 69%);
 }
-.share .links .icon{
-    width: 1.5rem;
-    position: relative;
-}
-.share .links .icon img{
-    position: absolute;
-    width: 1.1rem;
-    height: 1.1rem;
-    right: 13px;
-}
-
-
 .active .links{
     opacity: 1;
     transition: all 200ms;
@@ -219,10 +207,8 @@ p{
     .share .links p{
         margin-right: 1rem;
     }
-    .share .links .icon{
-        width: 1.5rem;
-        height: 1.5rem;
-        position: relative;
+    .share .links img{
+        margin-right: 1rem;
     }
     .share .links:before{
         display: none;
