@@ -164,11 +164,12 @@ p{
         box-shadow: 0 8px 10px 1px rgb(198, 205, 211);
     }
     .image{
-        height: 10%;
+        height: 13rem;
+        overflow: hidden;
     }
-    img{
+    .image img{
         width: 100%;
-        height: 30%;
+        height: 100%;
     }
     .content{
         flex-basis: 50%;
